@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce_platform",
+  "version": "1.0.0",
+  "description": "API for an ecommerce platform admin to manage product inventory",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EldhoseKuriakose/ecommerce-app.git"
+  },
+  "author": "Eldhose Kuriakose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EldhoseKuriakose/ecommerce-app/issues"
+  },
+  "homepage": "https://github.com/EldhoseKuriakose/ecommerce-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
